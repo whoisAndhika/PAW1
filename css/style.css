@@ -1,0 +1,36 @@
+/* element selector */
+/* referensi di web colour hunt */
+body {
+    background-color: #0011ff;
+    color: white;
+    font-family: Verdana;
+    .txt-center {
+        text-align: center;
+    }
+
+    .bg-warning {background-color: rgb(229, 255, 0); border-radius: 10px;}
+
+    .txt-black {color: black;} /* membuat tulisan dalam border berwarna hitam */
+    .p-1 {padding: 50px;} /* Memberi jarak sisi dalam border */
+    .m-1 {margin: 20px;} /* Memberi jarak sisi luar border */
+
+    /* unvisited link */
+    a:link {
+    color: red;
+    }
+
+    /* visited link */
+    a:visited {
+    color: rgb(0, 89, 255);
+    }
+
+    /* mouse over link */
+    a:hover {
+    color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+    color: blue;
+    }
+}
