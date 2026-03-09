@@ -1,6 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 /* hp max-width: 600px*/
 body {
     background-color: yellow;
+}
+
+.row {
+    clear: both;
 }
 
 /* Tablet max-width: 600px */
