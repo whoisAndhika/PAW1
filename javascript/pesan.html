@@ -12,7 +12,17 @@
     <input type="text" id="saran" placeholder="Masukkan saran atau kritik anda . . .">
     <button onclick="kirim()">Kirim</button>
 
-    <ul id="list-pesan"></ul>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Pesan</th>
+            </tr>
+        </thead>
+        <tbody id="list-pesan"></tbody>
+    </table>
+
+<!-- <ul id="list-pesan"></ul> -->
 
     <script src="script.js"></script>
 </body>
